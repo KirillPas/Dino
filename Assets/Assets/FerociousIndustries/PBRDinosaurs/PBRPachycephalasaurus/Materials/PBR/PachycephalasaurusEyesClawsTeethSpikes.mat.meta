@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8227bbdee1dae414d821d5b3eb265abd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusEyesClawsTeethSpikes.mat
+  uploadId: 601879

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 82e424a5d8da46041baecda5e8163d27
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/Bonehead_BodyEffects.cs
+  uploadId: 601879

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 621f9da908778ac46a68315e424911b6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Animators/DemoAnimator_Combat.controller
+  uploadId: 601879

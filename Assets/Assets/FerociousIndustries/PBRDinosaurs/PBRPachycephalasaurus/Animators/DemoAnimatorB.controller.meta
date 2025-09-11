@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5424edbf499b1e642a57c38c2f616f5a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Animators/DemoAnimatorB.controller
+  uploadId: 601879

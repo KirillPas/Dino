@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6f903108e3c318942a422b7198c34852
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BoneheadSoundEffects.cs
+  uploadId: 601879

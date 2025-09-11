@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 98f318997a409174e8442de367b6d2d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Stegasaurus_Green2.mat
+  uploadId: 601879

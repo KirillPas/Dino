@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3a33597addad7be498edee335822f47d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256019
+  packageName: PBR Animated Dinosaurs
+  packageVersion: 1.0
+  assetPath: Assets/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Demo/Scenes/DemoSceneSettings.lighting
+  uploadId: 601879
