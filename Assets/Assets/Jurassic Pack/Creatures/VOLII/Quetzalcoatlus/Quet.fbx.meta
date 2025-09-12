@@ -1,0 +1,1580 @@
+fileFormatVersion: 2
+guid: a9509a3f9c1653e4b8f37dc45008551b
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: eyes
+  - first:
+      1: 100002
+    second: featherNeck
+  - first:
+      1: 100004
+    second: featherTop
+  - first:
+      1: 100006
+    second: head
+  - first:
+      1: 100008
+    second: jaw0
+  - first:
+      1: 100010
+    second: jaw1
+  - first:
+      1: 100012
+    second: left eye
+  - first:
+      1: 100014
+    second: left finger0
+  - first:
+      1: 100016
+    second: left finger1
+  - first:
+      1: 100018
+    second: left finger2
+  - first:
+      1: 100020
+    second: left finger3
+  - first:
+      1: 100022
+    second: left finger4
+  - first:
+      1: 100024
+    second: left finger5
+  - first:
+      1: 100026
+    second: left finger6
+  - first:
+      1: 100028
+    second: left finger7
+  - first:
+      1: 100030
+    second: left finger8
+  - first:
+      1: 100032
+    second: left foot
+  - first:
+      1: 100034
+    second: left hips
+  - first:
+      1: 100036
+    second: left leg
+  - first:
+      1: 100038
+    second: left membrane0
+  - first:
+      1: 100040
+    second: left membrane1
+  - first:
+      1: 100042
+    second: left membrane2
+  - first:
+      1: 100044
+    second: left membrane3
+  - first:
+      1: 100046
+    second: left toe0
+  - first:
+      1: 100048
+    second: left toe1
+  - first:
+      1: 100050
+    second: left toe10
+  - first:
+      1: 100052
+    second: left toe11
+  - first:
+      1: 100054
+    second: left toe2
+  - first:
+      1: 100056
+    second: left toe3
+  - first:
+      1: 100058
+    second: left toe4
+  - first:
+      1: 100060
+    second: left toe5
+  - first:
+      1: 100062
+    second: left toe6
+  - first:
+      1: 100064
+    second: left toe7
+  - first:
+      1: 100066
+    second: left toe8
+  - first:
+      1: 100068
+    second: left toe9
+  - first:
+      1: 100070
+    second: left wing0
+  - first:
+      1: 100072
+    second: left wing1
+  - first:
+      1: 100074
+    second: left wing2
+  - first:
+      1: 100076
+    second: left wing3
+  - first:
+      1: 100078
+    second: left wing4
+  - first:
+      1: 100080
+    second: left wing5
+  - first:
+      1: 100082
+    second: left wing6
+  - first:
+      1: 100084
+    second: left wing7
+  - first:
+      1: 100086
+    second: left wing8
+  - first:
+      1: 100088
+    second: low spine0
+  - first:
+      1: 100090
+    second: low spine1
+  - first:
+      1: 100092
+    second: neck0
+  - first:
+      1: 100094
+    second: neck1
+  - first:
+      1: 100096
+    second: neck2
+  - first:
+      1: 100098
+    second: neck3
+  - first:
+      1: 100100
+    second: neck4
+  - first:
+      1: 100102
+    second: neck5
+  - first:
+      1: 100104
+    second: neck6
+  - first:
+      1: 100106
+    second: pelvis
+  - first:
+      1: 100108
+    second: //RootNode
+  - first:
+      1: 100110
+    second: Quet
+  - first:
+      1: 100112
+    second: quet_feather
+  - first:
+      1: 100114
+    second: quet_LOD_0
+  - first:
+      1: 100116
+    second: quet_LOD_1
+  - first:
+      1: 100118
+    second: quet_LOD_2
+  - first:
+      1: 100120
+    second: right eye
+  - first:
+      1: 100122
+    second: right finger0
+  - first:
+      1: 100124
+    second: right finger1
+  - first:
+      1: 100126
+    second: right finger2
+  - first:
+      1: 100128
+    second: right finger3
+  - first:
+      1: 100130
+    second: right finger4
+  - first:
+      1: 100132
+    second: right finger5
+  - first:
+      1: 100134
+    second: right finger6
+  - first:
+      1: 100136
+    second: right finger7
+  - first:
+      1: 100138
+    second: right finger8
+  - first:
+      1: 100140
+    second: right foot
+  - first:
+      1: 100142
+    second: right hips
+  - first:
+      1: 100144
+    second: right leg
+  - first:
+      1: 100146
+    second: right membrane0
+  - first:
+      1: 100148
+    second: right membrane1
+  - first:
+      1: 100150
+    second: right membrane2
+  - first:
+      1: 100152
+    second: right membrane3
+  - first:
+      1: 100154
+    second: right toe0
+  - first:
+      1: 100156
+    second: right toe1
+  - first:
+      1: 100158
+    second: right toe10
+  - first:
+      1: 100160
+    second: right toe11
+  - first:
+      1: 100162
+    second: right toe2
+  - first:
+      1: 100164
+    second: right toe3
+  - first:
+      1: 100166
+    second: right toe4
+  - first:
+      1: 100168
+    second: right toe5
+  - first:
+      1: 100170
+    second: right toe6
+  - first:
+      1: 100172
+    second: right toe7
+  - first:
+      1: 100174
+    second: right toe8
+  - first:
+      1: 100176
+    second: right toe9
+  - first:
+      1: 100178
+    second: right wing0
+  - first:
+      1: 100180
+    second: right wing1
+  - first:
+      1: 100182
+    second: right wing2
+  - first:
+      1: 100184
+    second: right wing3
+  - first:
+      1: 100186
+    second: right wing4
+  - first:
+      1: 100188
+    second: right wing5
+  - first:
+      1: 100190
+    second: right wing6
+  - first:
+      1: 100192
+    second: right wing7
+  - first:
+      1: 100194
+    second: right wing8
+  - first:
+      1: 100196
+    second: root
+  - first:
+      1: 100198
+    second: spine0
+  - first:
+      1: 100200
+    second: spine1
+  - first:
+      1: 100202
+    second: spine2
+  - first:
+      1: 100204
+    second: tail0
+  - first:
+      1: 100206
+    second: tail1
+  - first:
+      1: 100208
+    second: tongue0
+  - first:
+      1: 100210
+    second: tongue1
+  - first:
+      1: 100212
+    second: tongue2
+  - first:
+      4: 400000
+    second: eyes
+  - first:
+      4: 400002
+    second: featherNeck
+  - first:
+      4: 400004
+    second: featherTop
+  - first:
+      4: 400006
+    second: head
+  - first:
+      4: 400008
+    second: jaw0
+  - first:
+      4: 400010
+    second: jaw1
+  - first:
+      4: 400012
+    second: left eye
+  - first:
+      4: 400014
+    second: left finger0
+  - first:
+      4: 400016
+    second: left finger1
+  - first:
+      4: 400018
+    second: left finger2
+  - first:
+      4: 400020
+    second: left finger3
+  - first:
+      4: 400022
+    second: left finger4
+  - first:
+      4: 400024
+    second: left finger5
+  - first:
+      4: 400026
+    second: left finger6
+  - first:
+      4: 400028
+    second: left finger7
+  - first:
+      4: 400030
+    second: left finger8
+  - first:
+      4: 400032
+    second: left foot
+  - first:
+      4: 400034
+    second: left hips
+  - first:
+      4: 400036
+    second: left leg
+  - first:
+      4: 400038
+    second: left membrane0
+  - first:
+      4: 400040
+    second: left membrane1
+  - first:
+      4: 400042
+    second: left membrane2
+  - first:
+      4: 400044
+    second: left membrane3
+  - first:
+      4: 400046
+    second: left toe0
+  - first:
+      4: 400048
+    second: left toe1
+  - first:
+      4: 400050
+    second: left toe10
+  - first:
+      4: 400052
+    second: left toe11
+  - first:
+      4: 400054
+    second: left toe2
+  - first:
+      4: 400056
+    second: left toe3
+  - first:
+      4: 400058
+    second: left toe4
+  - first:
+      4: 400060
+    second: left toe5
+  - first:
+      4: 400062
+    second: left toe6
+  - first:
+      4: 400064
+    second: left toe7
+  - first:
+      4: 400066
+    second: left toe8
+  - first:
+      4: 400068
+    second: left toe9
+  - first:
+      4: 400070
+    second: left wing0
+  - first:
+      4: 400072
+    second: left wing1
+  - first:
+      4: 400074
+    second: left wing2
+  - first:
+      4: 400076
+    second: left wing3
+  - first:
+      4: 400078
+    second: left wing4
+  - first:
+      4: 400080
+    second: left wing5
+  - first:
+      4: 400082
+    second: left wing6
+  - first:
+      4: 400084
+    second: left wing7
+  - first:
+      4: 400086
+    second: left wing8
+  - first:
+      4: 400088
+    second: low spine0
+  - first:
+      4: 400090
+    second: low spine1
+  - first:
+      4: 400092
+    second: neck0
+  - first:
+      4: 400094
+    second: neck1
+  - first:
+      4: 400096
+    second: neck2
+  - first:
+      4: 400098
+    second: neck3
+  - first:
+      4: 400100
+    second: neck4
+  - first:
+      4: 400102
+    second: neck5
+  - first:
+      4: 400104
+    second: neck6
+  - first:
+      4: 400106
+    second: pelvis
+  - first:
+      4: 400108
+    second: //RootNode
+  - first:
+      4: 400110
+    second: Quet
+  - first:
+      4: 400112
+    second: quet_feather
+  - first:
+      4: 400114
+    second: quet_LOD_0
+  - first:
+      4: 400116
+    second: quet_LOD_1
+  - first:
+      4: 400118
+    second: quet_LOD_2
+  - first:
+      4: 400120
+    second: right eye
+  - first:
+      4: 400122
+    second: right finger0
+  - first:
+      4: 400124
+    second: right finger1
+  - first:
+      4: 400126
+    second: right finger2
+  - first:
+      4: 400128
+    second: right finger3
+  - first:
+      4: 400130
+    second: right finger4
+  - first:
+      4: 400132
+    second: right finger5
+  - first:
+      4: 400134
+    second: right finger6
+  - first:
+      4: 400136
+    second: right finger7
+  - first:
+      4: 400138
+    second: right finger8
+  - first:
+      4: 400140
+    second: right foot
+  - first:
+      4: 400142
+    second: right hips
+  - first:
+      4: 400144
+    second: right leg
+  - first:
+      4: 400146
+    second: right membrane0
+  - first:
+      4: 400148
+    second: right membrane1
+  - first:
+      4: 400150
+    second: right membrane2
+  - first:
+      4: 400152
+    second: right membrane3
+  - first:
+      4: 400154
+    second: right toe0
+  - first:
+      4: 400156
+    second: right toe1
+  - first:
+      4: 400158
+    second: right toe10
+  - first:
+      4: 400160
+    second: right toe11
+  - first:
+      4: 400162
+    second: right toe2
+  - first:
+      4: 400164
+    second: right toe3
+  - first:
+      4: 400166
+    second: right toe4
+  - first:
+      4: 400168
+    second: right toe5
+  - first:
+      4: 400170
+    second: right toe6
+  - first:
+      4: 400172
+    second: right toe7
+  - first:
+      4: 400174
+    second: right toe8
+  - first:
+      4: 400176
+    second: right toe9
+  - first:
+      4: 400178
+    second: right wing0
+  - first:
+      4: 400180
+    second: right wing1
+  - first:
+      4: 400182
+    second: right wing2
+  - first:
+      4: 400184
+    second: right wing3
+  - first:
+      4: 400186
+    second: right wing4
+  - first:
+      4: 400188
+    second: right wing5
+  - first:
+      4: 400190
+    second: right wing6
+  - first:
+      4: 400192
+    second: right wing7
+  - first:
+      4: 400194
+    second: right wing8
+  - first:
+      4: 400196
+    second: root
+  - first:
+      4: 400198
+    second: spine0
+  - first:
+      4: 400200
+    second: spine1
+  - first:
+      4: 400202
+    second: spine2
+  - first:
+      4: 400204
+    second: tail0
+  - first:
+      4: 400206
+    second: tail1
+  - first:
+      4: 400208
+    second: tongue0
+  - first:
+      4: 400210
+    second: tongue1
+  - first:
+      4: 400212
+    second: tongue2
+  - first:
+      43: 4300000
+    second: quet_LOD_1
+  - first:
+      43: 4300002
+    second: quet_LOD_2
+  - first:
+      43: 4300004
+    second: quet_feather
+  - first:
+      43: 4300006
+    second: quet_LOD_0
+  - first:
+      74: 7400000
+    second: Quet|Die1
+  - first:
+      74: 7400002
+    second: Quet|Die2
+  - first:
+      74: 7400004
+    second: Quet|Dive
+  - first:
+      74: 7400006
+    second: Quet|EatA
+  - first:
+      74: 7400008
+    second: Quet|EatB
+  - first:
+      74: 7400010
+    second: Quet|EatC
+  - first:
+      74: 7400012
+    second: Quet|Fall
+  - first:
+      74: 7400014
+    second: Quet|Flight
+  - first:
+      74: 7400016
+    second: Quet|FlightGrowl
+  - first:
+      74: 7400018
+    second: Quet|FlyAtk
+  - first:
+      74: 7400020
+    second: Quet|Glide
+  - first:
+      74: 7400022
+    second: Quet|GlideGrowl
+  - first:
+      74: 7400024
+    second: Quet|IdleA
+  - first:
+      74: 7400026
+    second: Quet|IdleB
+  - first:
+      74: 7400028
+    second: Quet|IdleC
+  - first:
+      74: 7400030
+    second: Quet|IdleD
+  - first:
+      74: 7400032
+    second: Quet|Landing
+  - first:
+      74: 7400034
+    second: Quet|Quet
+  - first:
+      74: 7400036
+    second: Quet|Run
+  - first:
+      74: 7400038
+    second: Quet|Sleep
+  - first:
+      74: 7400040
+    second: Quet|Stationary
+  - first:
+      74: 7400042
+    second: Quet|StationaryGrowl
+  - first:
+      74: 7400044
+    second: Quet|Strafe
+  - first:
+      74: 7400046
+    second: Quet|Takeoff
+  - first:
+      74: 7400048
+    second: Quet|ToSleep
+  - first:
+      74: 7400050
+    second: Quet|Walk
+  - first:
+      74: 7400052
+    second: Quet|Statio
+  - first:
+      74: 7400054
+    second: Quet|StatioGrowl
+  - first:
+      74: 7400056
+    second: Quet|ArmaturePose
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: quet_feather
+  - first:
+      137: 13700002
+    second: quet_LOD_0
+  - first:
+      137: 13700004
+    second: quet_LOD_1
+  - first:
+      137: 13700006
+    second: quet_LOD_2
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Quet|ArmaturePose
+      takeName: Quet|ArmaturePose
+      internalID: 7400056
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Die1
+      takeName: Quet|Die1
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Die2
+      takeName: Quet|Die2
+      internalID: 7400002
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|EatA
+      takeName: Quet|EatA
+      internalID: 7400006
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|EatB
+      takeName: Quet|EatB
+      internalID: 7400008
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|EatC
+      takeName: Quet|EatC
+      internalID: 7400010
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Fall
+      takeName: Quet|Fall
+      internalID: 7400012
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Flight
+      takeName: Quet|Flight
+      internalID: 7400014
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|FlightGrowl
+      takeName: Quet|FlightGrowl
+      internalID: 7400016
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|FlyAtk
+      takeName: Quet|FlyAtk
+      internalID: 7400018
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Glide
+      takeName: Quet|Glide
+      internalID: 7400020
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|GlideGrowl
+      takeName: Quet|GlideGrowl
+      internalID: 7400022
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|IdleA
+      takeName: Quet|IdleA
+      internalID: 7400024
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|IdleB
+      takeName: Quet|IdleB
+      internalID: 7400026
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|IdleC
+      takeName: Quet|IdleC
+      internalID: 7400028
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|IdleD
+      takeName: Quet|IdleD
+      internalID: 7400030
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Landing
+      takeName: Quet|Landing
+      internalID: 7400032
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Run
+      takeName: Quet|Run
+      internalID: 7400036
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Sleep
+      takeName: Quet|Sleep
+      internalID: 7400038
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Statio
+      takeName: Quet|Statio
+      internalID: 7400052
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|StatioGrowl
+      takeName: Quet|StatioGrowl
+      internalID: 7400054
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Strafe
+      takeName: Quet|Strafe
+      internalID: 7400044
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Takeoff
+      takeName: Quet|Takeoff
+      internalID: 7400046
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|ToSleep
+      takeName: Quet|ToSleep
+      internalID: 7400048
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Quet|Walk
+      takeName: Quet|Walk
+      internalID: 7400050
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

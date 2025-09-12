@@ -1,0 +1,5193 @@
+fileFormatVersion: 2
+guid: 3a76ebca0d7213f44b4079b9bb53b121
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Carn
+  - first:
+      1: 100004
+    second: carn_LOD_0
+  - first:
+      1: 100006
+    second: eyes
+  - first:
+      1: 100008
+    second: gums0
+  - first:
+      1: 100010
+    second: gums1
+  - first:
+      1: 100012
+    second: head
+  - first:
+      1: 100014
+    second: jaw0
+  - first:
+      1: 100016
+    second: jaw1
+  - first:
+      1: 100018
+    second: left arm0
+  - first:
+      1: 100020
+    second: left arm1
+  - first:
+      1: 100022
+    second: left arm2
+  - first:
+      1: 100024
+    second: left eye
+  - first:
+      1: 100026
+    second: left foot0
+  - first:
+      1: 100028
+    second: left foot1
+  - first:
+      1: 100030
+    second: left hand
+  - first:
+      1: 100032
+    second: left hips
+  - first:
+      1: 100034
+    second: left leg
+  - first:
+      1: 100036
+    second: left toe0
+  - first:
+      1: 100038
+    second: left toe1
+  - first:
+      1: 100040
+    second: left toe2
+  - first:
+      1: 100042
+    second: left toe3
+  - first:
+      1: 100044
+    second: left toe4
+  - first:
+      1: 100046
+    second: left toe5
+  - first:
+      1: 100048
+    second: neck0
+  - first:
+      1: 100050
+    second: neck1
+  - first:
+      1: 100052
+    second: neck2
+  - first:
+      1: 100054
+    second: right arm0
+  - first:
+      1: 100056
+    second: right arm1
+  - first:
+      1: 100058
+    second: right arm2
+  - first:
+      1: 100060
+    second: right eye
+  - first:
+      1: 100062
+    second: right foot0
+  - first:
+      1: 100064
+    second: right foot1
+  - first:
+      1: 100066
+    second: right hand
+  - first:
+      1: 100068
+    second: right hips
+  - first:
+      1: 100070
+    second: right leg
+  - first:
+      1: 100072
+    second: right toe0
+  - first:
+      1: 100074
+    second: right toe1
+  - first:
+      1: 100076
+    second: right toe2
+  - first:
+      1: 100078
+    second: right toe3
+  - first:
+      1: 100080
+    second: right toe4
+  - first:
+      1: 100082
+    second: right toe5
+  - first:
+      1: 100084
+    second: root
+  - first:
+      1: 100086
+    second: spine0
+  - first:
+      1: 100088
+    second: spine1
+  - first:
+      1: 100090
+    second: spine2
+  - first:
+      1: 100092
+    second: spine3
+  - first:
+      1: 100094
+    second: tail0
+  - first:
+      1: 100096
+    second: tail1
+  - first:
+      1: 100098
+    second: tail2
+  - first:
+      1: 100100
+    second: tail3
+  - first:
+      1: 100102
+    second: tail4
+  - first:
+      1: 100104
+    second: tail5
+  - first:
+      1: 100106
+    second: tail6
+  - first:
+      1: 100108
+    second: tail7
+  - first:
+      1: 100110
+    second: tail8
+  - first:
+      1: 100112
+    second: tongue0
+  - first:
+      1: 100114
+    second: tongue1
+  - first:
+      1: 100116
+    second: tongue2
+  - first:
+      1: 100118
+    second: tongue3
+  - first:
+      1: 100120
+    second: carn_LOD_1
+  - first:
+      1: 100122
+    second: carn_LOD_2
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Carn
+  - first:
+      4: 400004
+    second: carn_LOD_0
+  - first:
+      4: 400006
+    second: eyes
+  - first:
+      4: 400008
+    second: gums0
+  - first:
+      4: 400010
+    second: gums1
+  - first:
+      4: 400012
+    second: head
+  - first:
+      4: 400014
+    second: jaw0
+  - first:
+      4: 400016
+    second: jaw1
+  - first:
+      4: 400018
+    second: left arm0
+  - first:
+      4: 400020
+    second: left arm1
+  - first:
+      4: 400022
+    second: left arm2
+  - first:
+      4: 400024
+    second: left eye
+  - first:
+      4: 400026
+    second: left foot0
+  - first:
+      4: 400028
+    second: left foot1
+  - first:
+      4: 400030
+    second: left hand
+  - first:
+      4: 400032
+    second: left hips
+  - first:
+      4: 400034
+    second: left leg
+  - first:
+      4: 400036
+    second: left toe0
+  - first:
+      4: 400038
+    second: left toe1
+  - first:
+      4: 400040
+    second: left toe2
+  - first:
+      4: 400042
+    second: left toe3
+  - first:
+      4: 400044
+    second: left toe4
+  - first:
+      4: 400046
+    second: left toe5
+  - first:
+      4: 400048
+    second: neck0
+  - first:
+      4: 400050
+    second: neck1
+  - first:
+      4: 400052
+    second: neck2
+  - first:
+      4: 400054
+    second: right arm0
+  - first:
+      4: 400056
+    second: right arm1
+  - first:
+      4: 400058
+    second: right arm2
+  - first:
+      4: 400060
+    second: right eye
+  - first:
+      4: 400062
+    second: right foot0
+  - first:
+      4: 400064
+    second: right foot1
+  - first:
+      4: 400066
+    second: right hand
+  - first:
+      4: 400068
+    second: right hips
+  - first:
+      4: 400070
+    second: right leg
+  - first:
+      4: 400072
+    second: right toe0
+  - first:
+      4: 400074
+    second: right toe1
+  - first:
+      4: 400076
+    second: right toe2
+  - first:
+      4: 400078
+    second: right toe3
+  - first:
+      4: 400080
+    second: right toe4
+  - first:
+      4: 400082
+    second: right toe5
+  - first:
+      4: 400084
+    second: root
+  - first:
+      4: 400086
+    second: spine0
+  - first:
+      4: 400088
+    second: spine1
+  - first:
+      4: 400090
+    second: spine2
+  - first:
+      4: 400092
+    second: spine3
+  - first:
+      4: 400094
+    second: tail0
+  - first:
+      4: 400096
+    second: tail1
+  - first:
+      4: 400098
+    second: tail2
+  - first:
+      4: 400100
+    second: tail3
+  - first:
+      4: 400102
+    second: tail4
+  - first:
+      4: 400104
+    second: tail5
+  - first:
+      4: 400106
+    second: tail6
+  - first:
+      4: 400108
+    second: tail7
+  - first:
+      4: 400110
+    second: tail8
+  - first:
+      4: 400112
+    second: tongue0
+  - first:
+      4: 400114
+    second: tongue1
+  - first:
+      4: 400116
+    second: tongue2
+  - first:
+      4: 400118
+    second: tongue3
+  - first:
+      4: 400120
+    second: carn_LOD_1
+  - first:
+      4: 400122
+    second: carn_LOD_2
+  - first:
+      43: 4300000
+    second: carn_LOD_0
+  - first:
+      43: 4300002
+    second: carn_LOD_2
+  - first:
+      43: 4300004
+    second: carn_LOD_1
+  - first:
+      74: 7400000
+    second: Carn|Carn
+  - first:
+      74: 7400002
+    second: Carn|Die1
+  - first:
+      74: 7400004
+    second: Carn|Die2
+  - first:
+      74: 7400006
+    second: Carn|EatA
+  - first:
+      74: 7400008
+    second: Carn|EatB
+  - first:
+      74: 7400010
+    second: Carn|EatC
+  - first:
+      74: 7400012
+    second: Carn|SleepLoop
+  - first:
+      74: 7400014
+    second: Carn|Stand1A
+  - first:
+      74: 7400016
+    second: Carn|Stand1Attack
+  - first:
+      74: 7400018
+    second: Carn|Stand1B
+  - first:
+      74: 7400020
+    second: Carn|Stand1C
+  - first:
+      74: 7400022
+    second: Carn|Stand1ToWalk
+  - first:
+      74: 7400024
+    second: Carn|Stand2A
+  - first:
+      74: 7400026
+    second: Carn|Stand2Attack
+  - first:
+      74: 7400028
+    second: Carn|Stand2B
+  - first:
+      74: 7400030
+    second: Carn|Stand2C
+  - first:
+      74: 7400032
+    second: Carn|Stand2D
+  - first:
+      74: 7400034
+    second: Carn|Stand2ToSleep
+  - first:
+      74: 7400036
+    second: Carn|Stand2ToWalk
+  - first:
+      74: 7400038
+    second: Carn|Step1
+  - first:
+      74: 7400040
+    second: Carn|Step1Attack
+  - first:
+      74: 7400042
+    second: Carn|Step2
+  - first:
+      74: 7400044
+    second: Carn|Step2Attack
+  - first:
+      74: 7400046
+    second: Carn|Strafe1
+  - first:
+      74: 7400048
+    second: Carn|Strafe2
+  - first:
+      74: 7400050
+    second: Carn|Walk
+  - first:
+      74: 7400052
+    second: Carn|WalkAttackA
+  - first:
+      74: 7400054
+    second: Carn|WalkAttackB
+  - first:
+      74: 7400056
+    second: Carn|WalkGrowl
+  - first:
+      74: 7400058
+    second: Carn|WalkToStand2
+  - first:
+      74: 7400060
+    second: Carn|Idle1A
+  - first:
+      74: 7400062
+    second: Carn|Idle1B
+  - first:
+      74: 7400064
+    second: Carn|Idle1C
+  - first:
+      74: 7400066
+    second: Carn|Idle2A
+  - first:
+      74: 7400068
+    second: Carn|Idle2B
+  - first:
+      74: 7400070
+    second: Carn|Idle2C
+  - first:
+      74: 7400072
+    second: Carn|Idle2D
+  - first:
+      74: 7400074
+    second: Carn|IdleAtk1
+  - first:
+      74: 7400076
+    second: Carn|IdleAtk2
+  - first:
+      74: 7400078
+    second: Carn|Sleep
+  - first:
+      74: 7400080
+    second: Carn|StepAtk1
+  - first:
+      74: 7400082
+    second: Carn|StepAtk2
+  - first:
+      74: 7400084
+    second: Carn|ToSleep
+  - first:
+      74: 7400086
+    second: Carn|WalkAtk1
+  - first:
+      74: 7400088
+    second: Carn|WalkAtk2
+  - first:
+      74: 7400090
+    second: Carn|ArmaturePose
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: carn_LOD_0
+  - first:
+      137: 13700002
+    second: carn_LOD_1
+  - first:
+      137: 13700004
+    second: carn_LOD_2
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Carn|ArmaturePose
+      takeName: Carn|ArmaturePose
+      internalID: 7400090
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Die1
+      takeName: Carn|Die1
+      internalID: 7400002
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Die2
+      takeName: Carn|Die2
+      internalID: 7400004
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|EatA
+      takeName: Carn|EatA
+      internalID: 7400006
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|EatB
+      takeName: Carn|EatB
+      internalID: 7400008
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|EatC
+      takeName: Carn|EatC
+      internalID: 7400010
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle1A
+      takeName: Carn|Idle1A
+      internalID: 7400060
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle1B
+      takeName: Carn|Idle1B
+      internalID: 7400062
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle1C
+      takeName: Carn|Idle1C
+      internalID: 7400064
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle2A
+      takeName: Carn|Idle2A
+      internalID: 7400066
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle2B
+      takeName: Carn|Idle2B
+      internalID: 7400068
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle2C
+      takeName: Carn|Idle2C
+      internalID: 7400070
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Idle2D
+      takeName: Carn|Idle2D
+      internalID: 7400072
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|IdleAtk1
+      takeName: Carn|IdleAtk1
+      internalID: 7400074
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|IdleAtk2
+      takeName: Carn|IdleAtk2
+      internalID: 7400076
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Sleep
+      takeName: Carn|Sleep
+      internalID: 7400078
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Step1
+      takeName: Carn|Step1
+      internalID: 7400038
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Step2
+      takeName: Carn|Step2
+      internalID: 7400042
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|StepAtk1
+      takeName: Carn|StepAtk1
+      internalID: 7400080
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|StepAtk2
+      takeName: Carn|StepAtk2
+      internalID: 7400082
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Strafe1
+      takeName: Carn|Strafe1
+      internalID: 7400046
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Strafe2
+      takeName: Carn|Strafe2
+      internalID: 7400048
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|ToSleep
+      takeName: Carn|ToSleep
+      internalID: 7400084
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|Walk
+      takeName: Carn|Walk
+      internalID: 7400050
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|WalkAtk1
+      takeName: Carn|WalkAtk1
+      internalID: 7400086
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|WalkAtk2
+      takeName: Carn|WalkAtk2
+      internalID: 7400088
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Carn|WalkGrowl
+      takeName: Carn|WalkGrowl
+      internalID: 7400056
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Carn
+        weight: 1
+      - path: Carn/root
+        weight: 1
+      - path: Carn/root/spine0
+        weight: 1
+      - path: Carn/root/spine0/spine1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Carn/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Carn/root/tail0
+        weight: 1
+      - path: Carn/root/tail0/tail1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe0/left toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe2/left toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left
+          toe4/left toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Carn/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Carn/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: carn_LOD_0
+        weight: 1
+      - path: carn_LOD_1
+        weight: 1
+      - path: carn_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
