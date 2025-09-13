@@ -1,0 +1,20 @@
+﻿
+.instance-inspector-view {
+    width: 300px;
+}
+
+.instance-inspector-view .unity-base-field .unity-base-field__input {
+    width: 70%;
+}
+
+.instance-inspector-view__position Image {
+    background-image: resource('MoveTool');
+}
+
+.instance-inspector-view__rotation Image {
+    background-image: resource('RotateTool');
+}
+
+.instance-inspector-view__scale Image {
+    background-image: resource('ScaleTool');
+}

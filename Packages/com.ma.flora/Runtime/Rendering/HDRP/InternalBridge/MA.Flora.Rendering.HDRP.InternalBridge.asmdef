@@ -1,0 +1,23 @@
+{
+    "name": "HDRP_TestRunner",
+    "rootNamespace": "MA.Flora.Rendering.HDRP.InternalBridge",
+    "references": [
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "12.0.0",
+            "define": "HAS_PACKAGE_UNITY_HDRP_12_0_0"
+        }
+    ],
+    "noEngineReferences": false
+}

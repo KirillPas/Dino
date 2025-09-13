@@ -1,0 +1,8 @@
+﻿
+.placement-options-view {
+    width: 250px;
+}
+
+.icon-field .unity-base-field .unity-base-field__input {
+    min-width: 120px;
+}
