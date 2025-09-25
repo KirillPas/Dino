@@ -6,7 +6,7 @@ public class DinoPatrol : MonoBehaviour
 {
     public Transform[] patrolPoints;
     public float pointReachDistance = 1f;
-    public float waitTime = 7f;
+    public float waitTime = 12f;
     
     private NavMeshAgent agent;
     private Animator animator;
@@ -38,11 +38,16 @@ public class DinoPatrol : MonoBehaviour
     {
         isWaiting = true;
         agent.isStopped = true;
-        
+        animator.SetBool("Speed", true);
+        yield return new WaitForSeconds(2);
+        animator.SetBool("Eat", true);
         yield return new WaitForSeconds(waitTime);
         currentPointIndex = (currentPointIndex + 1) % patrolPoints.Length;
         agent.SetDestination(patrolPoints[currentPointIndex].position);
+        yield return new WaitForSeconds(2);
         agent.isStopped = false;
+        animator.SetBool("Eat", false);
+        animator.SetBool("Speed", false);
         isWaiting = false;
     }
 }
