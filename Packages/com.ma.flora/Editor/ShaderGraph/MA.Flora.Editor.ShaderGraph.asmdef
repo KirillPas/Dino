@@ -1,0 +1,29 @@
+{
+    "name": "Unity.ShaderGraph.Editor.GraphicsTests",
+    "rootNamespace": "MA.Flora.Editor.ShaderGraph",
+    "references": [
+        "GUID:8805c71a4fbc1f14897ac833b18c8a37",
+        "GUID:be0903cd8e1546f498710afdc59db5eb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.shadergraph",
+            "expression": "12.0.0",
+            "define": "HAS_PACKAGE_SHADERGRAPH"
+        }
+    ],
+    "noEngineReferences": false
+}

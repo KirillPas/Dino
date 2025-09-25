@@ -1,0 +1,37 @@
+{
+    "name": "MA.Flora.Demo",
+    "rootNamespace": "MA.Flora.Demo",
+    "references": [
+        "GUID:776ab4a02811c314d9a1bf27227226aa",
+        "GUID:68cb20739b29a8747842573b2bde6f40",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "ENABLE_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "12.0.0",
+            "define": "HAS_PACKAGE_UNITY_HDRP_12_0_0"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "12.0.0",
+            "define": "HAS_PACKAGE_UNITY_URP_12_0_0"
+        }
+    ],
+    "noEngineReferences": false
+}
