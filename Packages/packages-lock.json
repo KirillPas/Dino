@@ -1,31 +1,5 @@
 {
   "dependencies": {
-    "com.ma.core": {
-      "version": "file:com.ma.core",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "12.1.0",
-        "com.unity.settings-manager": "2.0.1"
-      }
-    },
-    "com.ma.flora": {
-      "version": "file:com.ma.flora",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.nuget.mono-cecil": "1.11.4",
-        "com.unity.profiling.core": "1.0.2",
-        "com.unity.render-pipelines.core": "12.1.0",
-        "com.unity.settings-manager": "2.0.1"
-      }
-    },
-    "com.ma.flora.installer": {
-      "version": "file:com.ma.flora.installer",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.unity.ai.navigation": {
       "version": "2.0.8",
       "depth": 0,
@@ -124,7 +98,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.5",
-      "depth": 1,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -136,13 +110,6 @@
       "dependencies": {
         "com.unity.modules.physics": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.profiling.core": {
-      "version": "1.0.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
@@ -190,13 +157,6 @@
     },
     "com.unity.searcher": {
       "version": "4.9.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.settings-manager": {
-      "version": "2.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
