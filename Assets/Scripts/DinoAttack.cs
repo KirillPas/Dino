@@ -6,7 +6,7 @@ public class DinosaurAttack : MonoBehaviour
 {
     public InputActionProperty attackAction;   // Input Action для кнопки атаки
     public Collider tailAttackCollider;         // Триггер коллайдер на хвосте
-    public float damage = 10f;
+    public float damage = 20f;
 
     private bool isAttacking = false;
 
@@ -33,9 +33,9 @@ public class DinosaurAttack : MonoBehaviour
     private IEnumerator AttackRoutine()
     {
         isAttacking = true;
-        // Плавный разворот на 90 градусов вправо
+        // Плавный разворот на 60 градусов вправо
         Quaternion startRotation = transform.rotation;
-        Quaternion targetRotation = startRotation * Quaternion.Euler(0, 90, 0);
+        Quaternion targetRotation = startRotation * Quaternion.Euler(0, 60, 0);
 
         float rotateDuration = 0.3f;
         float elapsed = 0f;
