@@ -2,11 +2,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 
-public class DinosaurAttack : MonoBehaviour
+public class DinosaurVRAttackNoInterfaces : MonoBehaviour
 {
-    public InputActionProperty attackAction;   // Input Action для кнопки атаки
-    public Collider tailAttackCollider;         // Триггер коллайдер на хвосте
+    public InputActionProperty attackAction;   // Input Action для кнопки атаки (Unity Input System)
+    public BoxCollider attackBoxCollider;      // Box Collider зоны атаки (триггер), назначается через инспектор
     public float damage = 20f;
+    public float rotationAngle = 60f;           // Угол поворота при атаке
+    public float attackDuration = 0.5f;         // Время включенного коллайдера для нанесения урона
+    public float rotateDuration = 0.3f;         // Время анимации поворота
 
     private bool isAttacking = false;
 
@@ -33,13 +36,12 @@ public class DinosaurAttack : MonoBehaviour
     private IEnumerator AttackRoutine()
     {
         isAttacking = true;
-        // Плавный разворот на 60 градусов вправо
+
         Quaternion startRotation = transform.rotation;
-        Quaternion targetRotation = startRotation * Quaternion.Euler(0, 60, 0);
+        Quaternion targetRotation = startRotation * Quaternion.Euler(0f, rotationAngle, 0f);
 
-        float rotateDuration = 0.3f;
+        // Плавный поворот на заданный угол
         float elapsed = 0f;
-
         while (elapsed < rotateDuration)
         {
             transform.rotation = Quaternion.Slerp(startRotation, targetRotation, elapsed / rotateDuration);
@@ -48,16 +50,15 @@ public class DinosaurAttack : MonoBehaviour
         }
         transform.rotation = targetRotation;
 
-        // Включаем коллайдер хвоста для нанесения урона
-        tailAttackCollider.enabled = true;
+        // Включаем атакующий коллайдер
+        attackBoxCollider.enabled = true;
 
-        // Ждем, пока продолжается удар
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(attackDuration);
 
-        // Выключаем коллайдер
-        tailAttackCollider.enabled = false;
+        // Выключаем коллайдер после атаки
+        attackBoxCollider.enabled = false;
 
-        // Возвращаем исходный разворот
+        // Возвращаем исходный поворот плавно
         elapsed = 0f;
         while (elapsed < rotateDuration)
         {
@@ -70,16 +71,16 @@ public class DinosaurAttack : MonoBehaviour
         isAttacking = false;
     }
 
-    // Обработка попаданий по врагам в зоне коллайдера хвоста
     private void OnTriggerEnter(Collider other)
     {
-        if (tailAttackCollider.enabled)
+        if (attackBoxCollider.enabled)
         {
+            // Ищем скрипт EnemyDamage на объекте и вызываем метод ApplyDamage
             EnemyDamage enemy = other.GetComponent<EnemyDamage>();
             if (enemy != null)
             {
                 enemy.ApplyDamage(damage);
-                Debug.Log($"Hit {other.name} for {damage} damage.");
+                Debug.Log($"Dinosaur VR attacked {other.name} for {damage} damage.");
             }
         }
     }
