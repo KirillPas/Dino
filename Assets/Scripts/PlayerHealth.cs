@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        //Debug.Log($"Player health: {currentHealth}/{maxHealth}");
+        Debug.Log($"Player health: {currentHealth}/{maxHealth}");
         if (currentHealth <= 0)
         {
             Die();

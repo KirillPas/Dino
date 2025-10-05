@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     private NavMeshAgent agent;                // Компонент навигации врага
     private float lastAttackTime = 0f;
     private IDamageable playerDamageable;
+    public Animator animator;
 
     void Start()
     {
@@ -43,17 +44,21 @@ public class Enemy : MonoBehaviour
         if (distanceToPlayer <= attackRange)
         {
             agent.isStopped = true;
+            animator.SetBool("Attack", true);
             Attack();
         }
         else if (distanceToPlayer <= sightRange)
         {
             agent.isStopped = false;
             agent.SetDestination(player.position);
+            animator.SetBool("Sleep", false);
+            animator.SetBool("Attack", false);
+            animator.SetBool("Speed", true);
         }
         else
         {
             agent.isStopped = true;
-            // Враг стоит на месте
+            animator.SetBool("Sleep", true);
         }
     }
 

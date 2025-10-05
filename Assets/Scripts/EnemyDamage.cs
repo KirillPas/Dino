@@ -4,6 +4,7 @@ public class EnemyDamage : MonoBehaviour
 {
     public float maxHealth = 100f;
     private float currentHealth;
+    public Animator animator;
 
     void Start()
     {
@@ -24,7 +25,6 @@ public class EnemyDamage : MonoBehaviour
     private void Die()
     {
         Debug.Log($"{gameObject.name} погиб.");
-        // Здесь можно добавить анимацию смерти, отключение коллайдера и другие действия
-        Destroy(gameObject);
+        animator.SetBool("Die", true);
     }
 }

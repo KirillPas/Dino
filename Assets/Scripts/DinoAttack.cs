@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 
-public class DinosaurVRAttackNoInterfaces : MonoBehaviour
+public class DinosaurAttack : MonoBehaviour
 {
     public InputActionProperty attackAction;   // Input Action для кнопки атаки (Unity Input System)
     public BoxCollider attackBoxCollider;      // Box Collider зоны атаки (триггер), назначается через инспектор
@@ -80,7 +80,7 @@ public class DinosaurVRAttackNoInterfaces : MonoBehaviour
             if (enemy != null)
             {
                 enemy.ApplyDamage(damage);
-                Debug.Log($"Dinosaur VR attacked {other.name} for {damage} damage.");
+                Debug.Log($"Dinosaur attacked {other.name} for {damage} damage.");
             }
         }
     }
