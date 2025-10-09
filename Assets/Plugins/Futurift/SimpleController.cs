@@ -1,5 +1,6 @@
 ﻿using Futurift.DataSenders;
 using Futurift.Options;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Futurift
@@ -66,10 +67,10 @@ namespace Futurift
             // Вычисляем движение персонажа
             Vector3 deltaPosition = transform.position - _lastPosition;
 
-            // Передаем скорость движения в контроллер Futurift (если API поддерживает)
-            _controller.Pitch = deltaPosition.x / Time.deltaTime;
-            _controller.Roll = deltaPosition.z / Time.deltaTime;
-
+            // Передаем скорость движения в контроллер Futurift
+            //_controller = deltaPosition.x / Time.deltaTime;
+            //_controller = deltaPosition.z / Time.deltaTime;
+            
             _lastPosition = transform.position;
         }
 
