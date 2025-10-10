@@ -35255,7 +35255,7 @@ MonoBehaviour:
       m_SingletonActionBindings:
       - m_Name: 
         m_Id: 60db6394-b80a-48f1-9703-c08d41da1c30
-        m_Path: <XRController>{RightHand}/menu
+        m_Path: <XRController>{RightHand}/system
         m_Interactions: 
         m_Processors: 
         m_Groups: 
