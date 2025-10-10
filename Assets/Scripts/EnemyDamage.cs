@@ -26,5 +26,6 @@ public class EnemyDamage : MonoBehaviour
     {
         Debug.Log($"{gameObject.name} погиб.");
         animator.SetBool("Die", true);
+
     }
 }

@@ -187,8 +187,8 @@ namespace Futurift
 
             transform.rotation = Quaternion.Euler(currentPitch, currentYaw, currentRoll);
 
-            _controller.Pitch = currentPitch;
-            _controller.Roll = currentRoll;
+            _controller.Pitch = (-currentPitch);
+            _controller.Roll = (-currentRoll);
         }
 
         private void PlayWalkSound()

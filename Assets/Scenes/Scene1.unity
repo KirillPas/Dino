@@ -35032,6 +35032,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 476639352}
+    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 476639353}
     - targetCorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 476639336}
@@ -35261,6 +35264,41 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   playerHealth: {fileID: 476639349}
+--- !u!114 &476639353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476639330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38e4317c1f3429ba667e0e4e59637f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::Futurift.SimpleController
+  ipAddress: 127.0.0.1
+  port: 6065
+  moveSpeed: 2.5
+  terrain: {fileID: 383978156}
+  rotationSpeed: 45
+  maxPitch: 15
+  minPitch: -21
+  maxYaw: 180
+  maxRoll: 10
+  rollSmoothTime: 0.15
+  moveAction: {fileID: -1680190386980627800, guid: 88b689d29f5f6714cb3e5eaea9f1fcc4, type: 3}
+  rotateAction: {fileID: -5749079972179362271, guid: 88b689d29f5f6714cb3e5eaea9f1fcc4, type: 3}
+  toggleHealthBarAction: {fileID: 0}
+  xrOrigin: {fileID: 476639334}
+  heightSmoothTime: 0.1
+  healthBarCanvas: {fileID: 0}
+  walkSound: {fileID: 0}
+  rotateSound: {fileID: 0}
+  walkAudioSource: {fileID: 0}
+  rotateAudioSource: {fileID: 0}
+  walkInterval: 0.5
+  rotateVolume: 0.3
+  fadeOutTime: 0.2
 --- !u!1001 &477232159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35560,6 +35598,10 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
