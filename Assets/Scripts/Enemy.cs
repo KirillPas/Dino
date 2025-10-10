@@ -4,23 +4,25 @@ public interface IDamageable
 {
     void TakeDamage(int damage);
 }
-
 public class Enemy : MonoBehaviour
 {
-    public Transform player;                   // Ссылка на игрока
-    public float attackRange = 2f;             // Дальность атаки
-    public float sightRange = 10f;             // Радиус видимости
-    public float attackCooldown = 1.5f;        // Задержка между атаками
-    public int damage = 10;                    // Урон наносимый врагом
+    public Transform player;
+    public float attackRange = 2f;
+    public float sightRange = 10f;
+    public float attackCooldown = 1.5f;
+    public int damage = 10;
+    public Animator animator;
 
-    private NavMeshAgent agent;                // Компонент навигации врага
+    private NavMeshAgent agent;
     private float lastAttackTime = 0f;
     private IDamageable playerDamageable;
-    public Animator animator;
+    private EnemyDamage enemyDamage; // Ссылка на компонент здоровья
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        enemyDamage = GetComponent<EnemyDamage>(); // Получаем компонент здоровья
+        
         if (player == null)
         {
             Debug.LogError("Player transform is not assigned!");
@@ -36,6 +38,10 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        // Проверяем, мертв ли враг через компонент EnemyDamage
+        if (enemyDamage != null && enemyDamage.IsDead())
+            return;
+
         if (player == null)
             return;
 
@@ -59,11 +65,14 @@ public class Enemy : MonoBehaviour
         {
             agent.isStopped = true;
             animator.SetBool("Sleep", true);
+            animator.SetBool("Speed", false);
         }
     }
 
     void Attack()
     {
+        if (enemyDamage != null && enemyDamage.IsDead()) return;
+
         if (Time.time >= lastAttackTime + attackCooldown)
         {
             lastAttackTime = Time.time;
