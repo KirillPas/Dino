@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using System;
 
 public class DinosaurAttack : MonoBehaviour
 {
     public InputActionProperty attackAction;   // Input Action для кнопки атаки (Unity Input System)
     public BoxCollider attackBoxCollider;      // Box Collider зоны атаки (триггер), назначается через инспектор
     public float damage = 20f;
-    public float rotationAngle = 60f;           // Угол поворота при атаке
+    public float rotationAngle = 45f;           // Угол поворота при атаке
     public float attackDuration = 0.5f;         // Время включенного коллайдера для нанесения урона
     public float rotateDuration = 0.3f;         // Время анимации поворота
 
@@ -40,42 +41,36 @@ public class DinosaurAttack : MonoBehaviour
         Quaternion startRotation = transform.rotation;
         Quaternion targetRotation = startRotation * Quaternion.Euler(0f, rotationAngle, 0f);
 
-        // Плавный поворот на заданный угол
-        float elapsed = 0f;
-        while (elapsed < rotateDuration)
-        {
-            transform.rotation = Quaternion.Slerp(startRotation, targetRotation, elapsed / rotateDuration);
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
-        transform.rotation = targetRotation;
+        // Плавный поворот вперёд
+        yield return SmoothRotate(startRotation, targetRotation, rotateDuration);
 
-        // Включаем атакующий коллайдер
         attackBoxCollider.enabled = true;
 
         yield return new WaitForSeconds(attackDuration);
 
-        // Выключаем коллайдер после атаки
         attackBoxCollider.enabled = false;
+        isAttacking = false;
+    }
+    private IEnumerator SmoothRotate(Quaternion startRotation, Quaternion targetRotation, float duration)
+    {
+        float elapsed = 0f;
 
-        // Возвращаем исходный поворот плавно
-        elapsed = 0f;
-        while (elapsed < rotateDuration)
+        while (elapsed < duration)
         {
-            transform.rotation = Quaternion.Slerp(targetRotation, startRotation, elapsed / rotateDuration);
+            float t = elapsed / duration;
+            transform.rotation = Quaternion.Slerp(startRotation, targetRotation, t);
+
             elapsed += Time.deltaTime;
             yield return null;
         }
-        transform.rotation = startRotation;
 
-        isAttacking = false;
+        transform.rotation = targetRotation; // Точная установка в конце
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (attackBoxCollider.enabled)
         {
-            // Ищем скрипт EnemyDamage на объекте и вызываем метод ApplyDamage
             EnemyDamage enemy = other.GetComponent<EnemyDamage>();
             if (enemy != null)
             {
