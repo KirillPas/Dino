@@ -3,6 +3,7 @@ using Futurift.Options;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR;
+using System.Collections;
 
 namespace Futurift
 {
@@ -35,6 +36,7 @@ namespace Futurift
         private float rollVelocity = 0f; // Для SmoothDamp
         private float heightVelocity = 0f; // Для сглаживания высоты
         private bool isDead = false;
+        private bool isAttacking = false;
 
         private void Awake()
         {
@@ -74,14 +76,11 @@ namespace Futurift
             if (rotateAction != null) rotateAction.action.Disable();
         }
 
-        private void OnPlayerDeath()
-        {
-            _controller.Pitch = 0f;
-            _controller.Roll = 0f;
-        }
-
         private void FixedUpdate()
         {
+            if (isAttacking) // блокируем управление во время атаки
+                return;
+
             Vector2 moveInput = moveAction.action.ReadValue<Vector2>();
             Vector2 rotateInput = rotateAction.action.ReadValue<Vector2>();
 
@@ -92,12 +91,10 @@ namespace Futurift
             if (moveInput.magnitude < 0.1f) moveDelta.x = 0;
 
             Vector3 newPosition = rb.position + moveDelta;
-
             rb.MovePosition(newPosition);
 
             if (moveInput.magnitude < 0.1f)
             {
-                // Останавливаем Rigidbody при отсутствии движения
                 if (Mathf.Abs(rb.linearVelocity.x) < 0.2f) rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, rb.linearVelocity.z);
                 if (Mathf.Abs(rb.linearVelocity.y) < 0.2f) rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
                 if (Mathf.Abs(rb.linearVelocity.z) < 0.2f) rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
@@ -119,6 +116,7 @@ namespace Futurift
             currentPitch -= rotateInput.y * rotationSpeed * Time.fixedDeltaTime;
             currentPitch = Mathf.Clamp(currentPitch, minPitch, maxPitch);
 
+            // Крен зависит от движения по оси X
             targetRoll = -moveInput.x * maxRoll;
             targetRoll = Mathf.Clamp(targetRoll, -maxRoll, maxRoll);
 
@@ -126,12 +124,18 @@ namespace Futurift
             {
                 targetRoll = 0f;
             }
+
             currentRoll = Mathf.SmoothDamp(currentRoll, targetRoll, ref rollVelocity, rollSmoothTime);
 
             transform.rotation = Quaternion.Euler(currentPitch, currentYaw, currentRoll);
 
             _controller.Pitch = (-currentPitch);
             _controller.Roll = (-currentRoll);
+        }
+
+        public void SetAttacking(bool attacking)
+        {
+            isAttacking = attacking;
         }
     }
 }

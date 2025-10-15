@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "attack",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "310b2784-18dc-4901-9d23-4743072d5430",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "f73cd7e9-01b4-4820-987e-2e7116687799",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "5eddae01-5b72-4ea8-9d87-0ec18f82a974",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8a78361a-2eb9-4c41-8b52-cc2f8d04ad06",
+                    "path": "<XRController>{LeftHand}/joystick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b990931-2c84-415e-81f1-65074d7b0b82",
+                    "path": "<XRController>{RightHand}/joystick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

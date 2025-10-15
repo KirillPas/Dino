@@ -89,12 +89,12 @@
                 },
                 {
                     "name": "Rotate",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "68ad83c3-f6c1-4145-9d27-63cf935539af",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "LeftTrigger",
@@ -122,7 +122,7 @@
                     "path": "<XRController>{RightHand}/joystick",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
+                    "groups": ";XR;Gamepad;Joystick;Keyboard&Mouse",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -507,7 +507,7 @@
                     "path": "<XRController>{LeftHand}/joystick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";XR;Joystick;Gamepad;Keyboard&Mouse",
                     "action": "Rotate",
                     "isComposite": false,
                     "isPartOfComposite": false

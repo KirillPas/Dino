@@ -1,18 +1,30 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-using System;
 
 public class DinosaurAttack : MonoBehaviour
 {
-    public InputActionProperty attackAction;   // Input Action для кнопки атаки (Unity Input System)
-    public BoxCollider attackBoxCollider;      // Box Collider зоны атаки (триггер), назначается через инспектор
+    public InputActionProperty attackAction;
+    public BoxCollider attackBoxCollider;
+    [SerializeField] private Futurift.SimpleController simpleController;
+
     public float damage = 20f;
-    public float rotationAngle = 45f;           // Угол поворота при атаке
-    public float attackDuration = 0.5f;         // Время включенного коллайдера для нанесения урона
-    public float rotateDuration = 0.3f;         // Время анимации поворота
+    public float attackDuration = 0.5f;
+    public float attackDelay = 1.5f;
+
+    [SerializeField] AudioClip attackClip;
+    [SerializeField] AudioSource audioattack;
 
     private bool isAttacking = false;
+
+    private void Awake()
+    {
+        if (attackBoxCollider != null)
+            attackBoxCollider.enabled = false;
+
+        if (simpleController == null)
+            Debug.LogWarning("SimpleController not assigned in DinosaurAttack.");
+    }
 
     private void OnEnable()
     {
@@ -37,41 +49,37 @@ public class DinosaurAttack : MonoBehaviour
     private IEnumerator AttackRoutine()
     {
         isAttacking = true;
+        audioattack.PlayOneShot(attackClip);
+        // Блокируем движение игрока, вызывая SetAttacking(true)
+        if (simpleController != null)
+        {
+            simpleController.SetAttacking(true);
+        }
 
-        Quaternion startRotation = transform.rotation;
-        Quaternion targetRotation = startRotation * Quaternion.Euler(0f, rotationAngle, 0f);
+        yield return new WaitForSeconds(attackDelay);
 
-        // Плавный поворот вперёд
-        yield return SmoothRotate(startRotation, targetRotation, rotateDuration);
-
+        // Включаем коллайдер для атаки
         attackBoxCollider.enabled = true;
 
         yield return new WaitForSeconds(attackDuration);
 
+        // Выключаем коллайдер после атаки
         attackBoxCollider.enabled = false;
-        isAttacking = false;
-    }
-    private IEnumerator SmoothRotate(Quaternion startRotation, Quaternion targetRotation, float duration)
-    {
-        float elapsed = 0f;
 
-        while (elapsed < duration)
+        // Разблокируем движение игрока
+        if (simpleController != null)
         {
-            float t = elapsed / duration;
-            transform.rotation = Quaternion.Slerp(startRotation, targetRotation, t);
-
-            elapsed += Time.deltaTime;
-            yield return null;
+            simpleController.SetAttacking(false);
         }
 
-        transform.rotation = targetRotation; // Точная установка в конце
+        isAttacking = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (attackBoxCollider.enabled)
         {
-            EnemyDamage enemy = other.GetComponent<EnemyDamage>();
+            var enemy = other.GetComponent<EnemyDamage>();
             if (enemy != null)
             {
                 enemy.ApplyDamage(damage);
