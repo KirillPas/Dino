@@ -1,4 +1,4 @@
-﻿using Futurift.DataSenders;
+using Futurift.DataSenders;
 using Futurift.Options;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -29,7 +29,6 @@ namespace Futurift
 
         private FutuRiftController _controller;
         private Rigidbody rb;
-
         private float currentPitch = 0f;
         private float currentYaw = 0f;
         private float currentRoll = 0f;
@@ -74,9 +73,10 @@ namespace Futurift
             if (moveAction != null) moveAction.action.Disable();
             if (rotateAction != null) rotateAction.action.Disable();
         }
+
         private void FixedUpdate()
         {
-            if (isAttacking)
+            if (isAttacking) // блокируем управление во время атаки
                 return;
 
             Vector2 moveInput = moveAction.action.ReadValue<Vector2>();
@@ -85,12 +85,36 @@ namespace Futurift
             if (moveInput.magnitude < 0.3f) moveInput = Vector2.zero;
             if (rotateInput.magnitude < 0.3f) rotateInput = Vector2.zero;
 
-            // Обновляем вращение
+            Vector3 moveDelta = (transform.forward * moveInput.y + transform.right * moveInput.x) * moveSpeed * Time.fixedDeltaTime;
+            if (moveInput.magnitude < 0.1f) moveDelta.x = 0;
+
+            Vector3 newPosition = rb.position + moveDelta;
+            rb.MovePosition(newPosition);
+
+            if (moveInput.magnitude < 0.1f)
+            {
+                if (Mathf.Abs(rb.linearVelocity.x) < 0.2f) rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, rb.linearVelocity.z);
+                if (Mathf.Abs(rb.linearVelocity.y) < 0.2f) rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+                if (Mathf.Abs(rb.linearVelocity.z) < 0.2f) rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
+                rb.Sleep();
+            }
+            else
+            {
+                rb.WakeUp();
+            }
+
+            if (xrOrigin != null && moveInput.magnitude < 0.1f)
+            {
+                xrOrigin.position = transform.position;
+                xrOrigin.rotation = transform.rotation;
+            }
+
             currentYaw += rotateInput.x * rotationSpeed * Time.fixedDeltaTime;
             currentYaw = Mathf.Repeat(currentYaw, 360f);
             currentPitch -= rotateInput.y * rotationSpeed * Time.fixedDeltaTime;
             currentPitch = Mathf.Clamp(currentPitch, minPitch, maxPitch);
 
+            // Крен зависит от движения по оси X
             targetRoll = -moveInput.x * maxRoll;
             targetRoll = Mathf.Clamp(targetRoll, -maxRoll, maxRoll);
 
@@ -102,29 +126,6 @@ namespace Futurift
             currentRoll = Mathf.SmoothDamp(currentRoll, targetRoll, ref rollVelocity, rollSmoothTime);
 
             transform.rotation = Quaternion.Euler(currentPitch, currentYaw, currentRoll);
-
-            Vector3 moveDelta = (transform.forward * moveInput.y + transform.right * moveInput.x) * moveSpeed * Time.fixedDeltaTime;
-
-            Vector3 targetPosition = rb.position + moveDelta;
-
-            // Двигаем Rigidbody методом MovePosition
-            rb.MovePosition(targetPosition);
-
-            // Проверяем, есть ли движение (на расстояние)
-            if (moveDelta.sqrMagnitude < 0.0001f)
-            {
-                rb.Sleep();
-            }
-            else
-            {
-                rb.WakeUp();
-            }
-
-            if (xrOrigin != null && moveDelta.sqrMagnitude < 0.0001f)
-            {
-                xrOrigin.position = transform.position;
-                xrOrigin.rotation = transform.rotation;
-            }
 
             _controller.Pitch = (-currentPitch);
             _controller.Roll = (-currentRoll);

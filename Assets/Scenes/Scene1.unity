@@ -34881,7 +34881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1079.2856
+      value: 1082.2856
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35322,16 +35322,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp-firstpass::Futurift.SimpleController
   ipAddress: 127.0.0.1
   port: 6065
-  moveSpeed: 2.5
+  moveSpeed: 0.05
   terrain: {fileID: 383978156}
-  rotationSpeed: 45
+  rotationSpeed: 60
   maxPitch: 15
   minPitch: -21
   maxYaw: 180
   maxRoll: 10
   rollSmoothTime: 0.15
-  moveAction: {fileID: -1680190386980627800, guid: 88b689d29f5f6714cb3e5eaea9f1fcc4, type: 3}
-  rotateAction: {fileID: -5749079972179362271, guid: 88b689d29f5f6714cb3e5eaea9f1fcc4, type: 3}
+  moveAction: {fileID: -1680190386980627800, guid: 0ae859c5df93f634f82ddc541fcc50aa, type: 3}
+  rotateAction: {fileID: -5749079972179362271, guid: 0ae859c5df93f634f82ddc541fcc50aa, type: 3}
   xrOrigin: {fileID: 476639334}
   heightSmoothTime: 0.1
 --- !u!82 &476639359
@@ -35650,7 +35650,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &477232159
 PrefabInstance:
@@ -52615,7 +52615,7 @@ MonoBehaviour:
     \u0447\u0442\u043E\u0431\u044B \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u044C\u0441\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 8b29aaa3eec7468097ff07adfcf29ac9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -71082,7 +71082,7 @@ MonoBehaviour:
     \u0432\u044B\u0439\u0442\u0438 \u0438\u0437 \u0438\u0433\u0440\u044B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 8b29aaa3eec7468097ff07adfcf29ac9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

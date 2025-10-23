@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "test1",
+    "name": "test2",
     "maps": [
         {
             "name": "Player",
@@ -119,7 +119,7 @@
                 {
                     "name": "",
                     "id": "978bfe49-cc26-4a3d-ab7b-7d7a29327403",
-                    "path": "<XRController>{LeftHand}/joystick",
+                    "path": "<XRController>{RightHand}/joystick",
                     "interactions": "",
                     "processors": "",
                     "groups": ";XR;Gamepad;Joystick;Keyboard&Mouse",
@@ -383,10 +383,10 @@
                 {
                     "name": "",
                     "id": "e595d811-68cb-4ec9-934a-27ac3d95ee5a",
-                    "path": "<XRController>{RightHand}/joystick",
+                    "path": "<XRController>{LeftHand}/joystick",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Joystick;Gamepad;Keyboard&Mouse;XR",
+                    "groups": ";XR;Joystick;Gamepad;Keyboard&Mouse",
                     "action": "Rotate",
                     "isComposite": false,
                     "isPartOfComposite": false
