@@ -82,6 +82,27 @@ namespace Futurift
             Vector2 moveInput = moveAction.action.ReadValue<Vector2>();
             Vector2 rotateInput = rotateAction.action.ReadValue<Vector2>();
 
+            if (moveInput.magnitude < 0.3f) moveInput = Vector2.zero; // Мёртвая зона для движения
+            if (rotateInput.magnitude < 0.3f) rotateInput = Vector2.zero; // Мёртвая зона для поворота
+
+            Vector3 moveDelta = (transform.forward * moveInput.y + transform.right * moveInput.x) * moveSpeed * Time.fixedDeltaTime;
+            if (moveInput.magnitude < 0.1f) moveDelta.x = 0; // Принудительное обнуление бокового смещения
+            Vector3 newPosition = rb.position + moveDelta;
+
+            rb.MovePosition(newPosition);
+
+            if (moveInput.magnitude < 0.1f)
+            {
+                if (Mathf.Abs(rb.linearVelocity.x) < 0.2f) rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, rb.linearVelocity.z);
+                if (Mathf.Abs(rb.linearVelocity.y) < 0.2f) rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+                if (Mathf.Abs(rb.linearVelocity.z) < 0.2f) rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
+                rb.Sleep(); // Усыпляем при остановке
+            }
+            else
+            {
+                rb.WakeUp(); // Пробуждаем при движении
+            }
+
             if (moveInput.magnitude < 0.3f) moveInput = Vector2.zero;
             if (rotateInput.magnitude < 0.3f) rotateInput = Vector2.zero;
 
@@ -94,16 +115,7 @@ namespace Futurift
             targetRoll = -moveInput.x * maxRoll;
             targetRoll = Mathf.Clamp(targetRoll, -maxRoll, maxRoll);
 
-            if (Mathf.Abs(moveInput.x) < 0.3f)
-            {
-                targetRoll = 0f;
-            }
-
-            currentRoll = Mathf.SmoothDamp(currentRoll, targetRoll, ref rollVelocity, rollSmoothTime);
-
             transform.rotation = Quaternion.Euler(currentPitch, currentYaw, currentRoll);
-
-            Vector3 moveDelta = (transform.forward * moveInput.y + transform.right * moveInput.x) * moveSpeed * Time.fixedDeltaTime;
 
             Vector3 targetPosition = rb.position + moveDelta;
 
