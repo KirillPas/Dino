@@ -2410,6 +2410,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Futurift.FutuRiftV2Controller
   ipAddress: 127.0.0.1
   port: 6065
+  maxPitch: 21
+  maxRoll: 18
+  maxYaw: 30
+  rSpeed: 5
+  slSpeed: 2.5
 --- !u!1 &1318923972
 GameObject:
   m_ObjectHideFlags: 0

@@ -1137,13 +1137,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 87947545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7fdf685c47c0745bf1dd5d0a85e575, type: 3}
+  m_Script: {fileID: 11500000, guid: ff24794f4d0a936468b3a0a64cbbe0cc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RobotFollower
-  dinoTransform: {fileID: 2095440154}
-  followOffset: {x: -0.05, y: 3, z: 2.65}
-  maxCameraPitch: 30
-  minCameraPitch: -15
+  m_EditorClassIdentifier: Assembly-CSharp::Futurift.FutRiftV2Controller
+  ipAddress: 127.0.0.1
+  port: 6065
+  maxPitch: 21
+  maxRoll: 18
+  maxYaw: 30
+  rSpeed: 5
+  slSpeed: 2.5
 --- !u!1 &131996630
 GameObject:
   m_ObjectHideFlags: 0
@@ -4738,64 +4741,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926283688}
   m_CullTransparentMesh: 1
---- !u!1 &2095440152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2095440154}
-  - component: {fileID: 2095440153}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2095440153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095440152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b38e4317c1f3429ba667e0e4e59637f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp-firstpass::Futurift.SimpleController
-  ipAddress: 127.0.0.1
-  port: 6065
-  moveSpeed: 1
-  terrain: {fileID: 296186649}
-  rotationSpeed: 45
-  maxPitch: 15
-  minPitch: -21
-  maxYaw: 180
-  maxRoll: 10
-  rollSmoothTime: 0.15
-  moveAction: {fileID: -1680190386980627800, guid: 0ae859c5df93f634f82ddc541fcc50aa, type: 3}
-  rotateAction: {fileID: -5749079972179362271, guid: 0ae859c5df93f634f82ddc541fcc50aa, type: 3}
-  xrOrigin: {fileID: 87947548}
-  heightSmoothTime: 0.1
---- !u!4 &2095440154
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095440152}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 128.40746, y: 1.61, z: 84.69289}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4812,4 +4757,3 @@ SceneRoots:
   - {fileID: 1682054431}
   - {fileID: 253458787}
   - {fileID: 615517667}
-  - {fileID: 2095440154}

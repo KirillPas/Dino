@@ -6,7 +6,6 @@ public class DinosaurAttack : MonoBehaviour
 {
     public InputActionProperty attackAction;
     public BoxCollider attackBoxCollider;
-    [SerializeField] private Futurift.SimpleController simpleController;
 
     public float damage = 20f;
     public float attackDuration = 0.5f;
@@ -16,14 +15,10 @@ public class DinosaurAttack : MonoBehaviour
     [SerializeField] AudioSource audioattack;
 
     private bool isAttacking = false;
-
     private void Awake()
     {
         if (attackBoxCollider != null)
             attackBoxCollider.enabled = false;
-
-        if (simpleController == null)
-            Debug.LogWarning("SimpleController not assigned in DinosaurAttack.");
     }
 
     private void OnEnable()
@@ -50,11 +45,7 @@ public class DinosaurAttack : MonoBehaviour
     {
         isAttacking = true;
         audioattack.PlayOneShot(attackClip);
-        // Блокируем движение игрока, вызывая SetAttacking(true)
-        if (simpleController != null)
-        {
-            simpleController.SetAttacking(true);
-        }
+        
 
         yield return new WaitForSeconds(attackDelay);
 
@@ -65,12 +56,6 @@ public class DinosaurAttack : MonoBehaviour
 
         // Выключаем коллайдер после атаки
         attackBoxCollider.enabled = false;
-
-        // Разблокируем движение игрока
-        if (simpleController != null)
-        {
-            simpleController.SetAttacking(false);
-        }
 
         isAttacking = false;
     }
