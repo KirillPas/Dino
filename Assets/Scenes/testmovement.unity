@@ -1169,11 +1169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.46
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 74.12
+      value: 98.12
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1288,8 +1288,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6232745470614056090, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232745470614056090, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Radius
-      value: 3.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6232745470614056090, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Enabled
@@ -1297,7 +1301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6232745470614056090, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Center.y
-      value: 0.92
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6480925242510836759, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_EnableTurnAround
@@ -1362,7 +1366,7 @@ PrefabInstance:
       addedObject: {fileID: 1278989771}
     - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1278989792}
+      addedObject: {fileID: 1278989786}
     - targetCorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1732286172}
@@ -2392,7 +2396,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 646519848}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1278989792
+--- !u!114 &1278989786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2401,13 +2405,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1278989770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7fdf685c47c0745bf1dd5d0a85e575, type: 3}
+  m_Script: {fileID: 11500000, guid: ff24794f4d0a936468b3a0a64cbbe0cc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RobotFollower
-  dinoTransform: {fileID: 1656016524}
-  followOffset: {x: -0.05, y: 3, z: -2.65}
-  maxCameraPitch: 30
-  minCameraPitch: -15
+  m_EditorClassIdentifier: Assembly-CSharp::Futurift.FutuRiftV2Controller
+  ipAddress: 127.0.0.1
+  port: 6065
 --- !u!1 &1318923972
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,64 +3225,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0029999998, y: 0.003982037, z: 0.003798829}
   m_Center: {x: -6.749291e-11, y: 0.00013411132, z: 0.0000361325}
---- !u!1 &1656016522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1656016524}
-  - component: {fileID: 1656016523}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1656016523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656016522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b38e4317c1f3429ba667e0e4e59637f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp-firstpass::Futurift.SimpleController
-  ipAddress: 127.0.0.1
-  port: 6065
-  moveSpeed: 1
-  terrain: {fileID: 1430925399}
-  rotationSpeed: 45
-  maxPitch: 15
-  minPitch: -21
-  maxYaw: 180
-  maxRoll: 10
-  rollSmoothTime: 0.15
-  moveAction: {fileID: -1680190386980627800, guid: 0ae859c5df93f634f82ddc541fcc50aa, type: 3}
-  rotateAction: {fileID: -5749079972179362271, guid: 0ae859c5df93f634f82ddc541fcc50aa, type: 3}
-  xrOrigin: {fileID: 1278989785}
-  heightSmoothTime: 0.1
---- !u!4 &1656016524
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656016522}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 120.36887, y: 2, z: 83.83}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1732286170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -3635,4 +3579,3 @@ SceneRoots:
   - {fileID: 1230059447}
   - {fileID: 1204859505}
   - {fileID: 94103248}
-  - {fileID: 1656016524}

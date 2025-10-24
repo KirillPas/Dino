@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "attack",
+    "name": "testmovement",
     "maps": [
         {
             "name": "Player",
@@ -9,7 +9,7 @@
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "f73cd7e9-01b4-4820-987e-2e7116687799",
+                    "id": "edb43b33-f18f-43a3-aff2-e06e347f7709",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -18,7 +18,7 @@
                 {
                     "name": "Rotate",
                     "type": "Value",
-                    "id": "5eddae01-5b72-4ea8-9d87-0ec18f82a974",
+                    "id": "341f0183-7abb-443a-9e26-1327a8371ee1",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -28,8 +28,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "8a78361a-2eb9-4c41-8b52-cc2f8d04ad06",
-                    "path": "<XRController>{LeftHand}/joystick",
+                    "id": "cdeabe25-c42f-4df1-a53d-af099e7d0943",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -39,8 +39,8 @@
                 },
                 {
                     "name": "",
-                    "id": "5b990931-2c84-415e-81f1-65074d7b0b82",
-                    "path": "<XRController>{RightHand}/joystick",
+                    "id": "674900ef-0379-42cd-9f81-ca376182df9b",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
