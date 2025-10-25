@@ -2334,6 +2334,8 @@ MonoBehaviour:
   damage: 5
   ramDuration: 1
   ramSpeed: 30
+  attackdelay: 1.5
+  tarranattack: {fileID: 1278989786}
 --- !u!114 &1278989778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2372,7 +2374,7 @@ MonoBehaviour:
   attackDelay: 1.15
   attackClip: {fileID: 8300000, guid: fe6e69b994aac0245842f54c990f4ac4, type: 3}
   audioattack: {fileID: 1278989772}
-  a: {fileID: 1278989786}
+  rightattack: {fileID: 1278989786}
 --- !u!114 &1278989779
 MonoBehaviour:
   m_ObjectHideFlags: 0
