@@ -79,6 +79,7 @@ public class Enemy : MonoBehaviour
             if (playerDamageable != null)
             {
                 playerDamageable.TakeDamage(damage);
+                
                 Debug.Log($"Enemy attacks player for {damage} damage!");
             }
             else
