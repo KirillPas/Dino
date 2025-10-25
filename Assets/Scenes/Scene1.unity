@@ -1400,6 +1400,10 @@ PrefabInstance:
       value: 5.78
       objectReference: {fileID: 0}
     - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LeftControllerTransform
       value: 
       objectReference: {fileID: 0}
@@ -1753,6 +1757,8 @@ MonoBehaviour:
   damage: 5
   ramDuration: 0.6
   ramSpeed: 30
+  attackdelay: 1.5
+  tarranattack: {fileID: 476639363}
 --- !u!114 &476639351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1791,6 +1797,7 @@ MonoBehaviour:
   attackDelay: 1.15
   attackClip: {fileID: 8300000, guid: fe6e69b994aac0245842f54c990f4ac4, type: 3}
   audioattack: {fileID: 476639361}
+  rightattack: {fileID: 476639363}
 --- !u!114 &476639352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2199,7 +2206,7 @@ MonoBehaviour:
   port: 6065
   maxPitch: 21
   maxRoll: 18
-  maxYaw: 30
+  maxYaw: 45
   rSpeed: 5
   slSpeed: 2.5
   currentYaw: 0
@@ -2259,7 +2266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

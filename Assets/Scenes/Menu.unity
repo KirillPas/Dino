@@ -795,6 +795,10 @@ PrefabInstance:
       value: 5.78
       objectReference: {fileID: 0}
     - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LeftControllerTransform
       value: 
       objectReference: {fileID: 0}
@@ -1144,7 +1148,7 @@ MonoBehaviour:
   port: 6065
   maxPitch: 21
   maxRoll: 18
-  maxYaw: 30
+  maxYaw: 45
   rSpeed: 5
   slSpeed: 2.5
   currentYaw: 0

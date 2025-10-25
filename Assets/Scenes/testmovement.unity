@@ -2367,12 +2367,12 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   attackBoxCollider: {fileID: 0}
-  simpleController: {fileID: 0}
   damage: 15
   attackDuration: 0.5
   attackDelay: 1.15
   attackClip: {fileID: 8300000, guid: fe6e69b994aac0245842f54c990f4ac4, type: 3}
   audioattack: {fileID: 1278989772}
+  a: {fileID: 1278989786}
 --- !u!114 &1278989779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2412,9 +2412,12 @@ MonoBehaviour:
   port: 6065
   maxPitch: 21
   maxRoll: 18
-  maxYaw: 30
+  maxYaw: 45
   rSpeed: 5
   slSpeed: 2.5
+  currentYaw: 0
+  currentPitch: 0
+  currentRoll: 0
 --- !u!1 &1318923972
 GameObject:
   m_ObjectHideFlags: 0

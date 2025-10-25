@@ -9,10 +9,12 @@ public class DinosaurAttack : MonoBehaviour
 
     public float damage = 20f;
     public float attackDuration = 0.5f;
-    public float attackDelay = 1.5f;
+    public float attackDelay = 1.25f;
 
     [SerializeField] AudioClip attackClip;
     [SerializeField] AudioSource audioattack;
+
+    [SerializeField] Futurift.FutRiftV2Controller rightattack;
 
     private bool isAttacking = false;
     private void Awake()
@@ -45,7 +47,8 @@ public class DinosaurAttack : MonoBehaviour
     {
         isAttacking = true;
         audioattack.PlayOneShot(attackClip);
-        
+        rightattack.currentRoll = 6f;
+        rightattack.currentYaw = 60f;
 
         yield return new WaitForSeconds(attackDelay);
 

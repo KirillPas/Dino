@@ -23,7 +23,7 @@ namespace Futurift
 
         public float currentYaw = 0f;
         public float currentPitch = 0f;
-        public float currentRoll = 0f;     
+        public float currentRoll = 0f;
 
         private Vector2 moveInput = Vector2.zero;
         private Vector2 rotateInput = Vector2.zero;
@@ -62,7 +62,7 @@ namespace Futurift
         private void Update()
         {
             float targetPitch = Mathf.Clamp(-moveInput.y * maxPitch, -15f, maxPitch);
-            float targetRoll = Mathf.Clamp(-moveInput.x * maxRoll, -maxRoll, maxRoll);
+            float targetRoll = Mathf.Clamp(-moveInput.x * (-maxRoll), -maxRoll, maxRoll);
             float targetYaw = Mathf.Clamp(rotateInput.x * maxYaw, -maxYaw, maxYaw);
 
             currentPitch = Mathf.Lerp(currentPitch, targetPitch, Time.deltaTime * slSpeed);

@@ -9,6 +9,9 @@ public class DinoAttack2 : MonoBehaviour
     public float damage = 10f;
     public float ramDuration = 1.0f;
     public float ramSpeed = 30f;
+    public float attackdelay = 1.5f;
+
+    [SerializeField] Futurift.FutRiftV2Controller tarranattack;
 
     private bool isRamming = false;
     private Vector3 ramDirection;
@@ -41,6 +44,7 @@ public class DinoAttack2 : MonoBehaviour
     {
         isRamming = true;
         ramCollider.enabled = true;
+        tarranattack.currentPitch = -8f;
 
         float elapsed = 0f;
 
@@ -51,6 +55,7 @@ public class DinoAttack2 : MonoBehaviour
             yield return null;
         }
 
+        yield return new WaitForSeconds(attackdelay);
         ramCollider.enabled = false;
         isRamming = false;
     }
