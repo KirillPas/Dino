@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 public interface IDamageable
@@ -17,6 +18,9 @@ public class Enemy : MonoBehaviour
     private float lastAttackTime = 0f;
     private IDamageable playerDamageable;
     private EnemyDamage enemyDamage; // —сылка на компонент здоровь€
+
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioClip clip;
 
     void Start()
     {
@@ -56,6 +60,7 @@ public class Enemy : MonoBehaviour
         else if (distanceToPlayer <= sightRange)
         {
             agent.isStopped = false;
+            source.Stop();
             agent.SetDestination(player.position);
             animator.SetBool("Sleep", false);
             animator.SetBool("Attack", false);
@@ -64,11 +69,11 @@ public class Enemy : MonoBehaviour
         else
         {
             agent.isStopped = true;
+            source.playOnAwake = true;
             animator.SetBool("Sleep", true);
             animator.SetBool("Speed", false);
         }
     }
-
     void Attack()
     {
         if (enemyDamage != null && enemyDamage.IsDead()) return;

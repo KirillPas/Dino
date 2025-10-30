@@ -10,6 +10,8 @@ public class EnemyDamage : MonoBehaviour
     private bool isDead = false;
     private NavMeshAgent agent;
 
+    [SerializeField] private AudioClip death;
+    [SerializeField] private AudioSource Death;
     void Start()
     {
         currentHealth = maxHealth;
@@ -19,7 +21,6 @@ public class EnemyDamage : MonoBehaviour
     public void ApplyDamage(float amount)
     {
         if (isDead) return;
-
         currentHealth -= amount;
         Debug.Log($"{gameObject.name} получил урон: {amount}. Текущее здоровье: {currentHealth}");
 
@@ -33,7 +34,7 @@ public class EnemyDamage : MonoBehaviour
     {
         isDead = true;
         Debug.Log($"{gameObject.name} погиб.");
-
+        Death.PlayOneShot(death);
         // Останавливаем навигацию
         if (agent != null)
         {
