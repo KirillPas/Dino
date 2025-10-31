@@ -1148,7 +1148,7 @@ MonoBehaviour:
   port: 6065
   maxPitch: 21
   maxRoll: 18
-  maxYaw: 45
+  maxYaw: 0
   rSpeed: 5
   slSpeed: 2.5
   currentYaw: 0

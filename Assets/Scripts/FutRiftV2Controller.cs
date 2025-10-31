@@ -67,12 +67,12 @@ namespace Futurift
 
             currentPitch = Mathf.Lerp(currentPitch, targetPitch, Time.deltaTime * slSpeed);
             currentRoll = Mathf.Lerp(currentRoll, targetRoll, Time.deltaTime * slSpeed);
-            currentYaw = Mathf.Lerp(currentYaw, targetYaw, Time.deltaTime * rSpeed);
+            currentYaw = Mathf.Lerp(currentYaw, targetYaw, Time.deltaTime * 0);
 
             _controller.Pitch = currentPitch;
             _controller.Roll = currentRoll;
 
-            transform.localRotation = Quaternion.Euler(0f, currentYaw, 0f);
+            //transform.localRotation = Quaternion.Euler(0f, currentYaw, 0f);
 
             Debug.Log($"Pitch: {currentPitch}, Roll: {currentRoll}, Yaw: {currentYaw}");
         }
